@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini-VPS | Python Sandbox</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐍 Mini-VPS Python Terminal</h1>
+    <div class="terminal" id="terminal">
+      <div class="output" id="output">Welcome to Mini-VPS! Type Python code below and press Run.<br>> </div>
+    </div>
+    <textarea id="codeInput" placeholder="# Write your Python code here..."></textarea>
+    <div class="controls">
+      <button id="runBtn">▶ Run (Ctrl+Enter)</button>
+      <button id="clearBtn">Clear</button>
+    </div>
+    <p class="info">⏱️ Timeout: 5s | 💾 Memory limit: 128MB | 🔒 Isolated mode</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
